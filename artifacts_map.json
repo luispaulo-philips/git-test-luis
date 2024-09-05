@@ -1,0 +1,95 @@
+{
+    "compatibleSystemVersion": {
+        "allVersionSP": true,
+        "onlyHigherVersions": false,
+        "systemVersion": [
+            "5.02.1838",
+            "5.01.1835",
+            "5.00.1832"
+        ]
+    },
+    "expressions": [
+        {
+            "code": 1117415
+        },
+        {
+            "code": 1117495
+        }
+    ],
+    "guid": "ee521fc7-6134-44ed-8948-cf18053b0eff",
+    "layer_prefix": "CMDKLTD",
+    "objects": {
+        "customized": [
+            {
+                "name": "PABC_ATEPACI_ATUAL",
+                "sequence": 10127006
+            }
+        ],
+        "intercepted": [
+        ]
+    },
+    "other_records": [
+        {
+            "primary_key": "NM_TABELA=PABC_ATEPACI;NM_ATRIBUTO=NR_ATENDIMENTO",
+            "table_name": "TABELA_ATRIBUTO"
+        },
+        {
+            "primary_key": "NM_TABELA=PABC_ATEPACI;NM_ATRIBUTO=IE_VIP",
+            "table_name": "TABELA_ATRIBUTO"
+        },
+        {
+            "primary_key": "NM_TABELA=PABC_ATEPACI;NM_INDICE=PABC57_PK",
+            "table_name": "INDICE"
+        },
+        {
+            "primary_key": "NM_TABELA=PABC_ATEPACI;NM_INDICE=PABC57_PK;NR_SEQUENCIA=1",
+            "table_name": "INDICE_ATRIBUTO"
+        },
+        {
+            "primary_key": "NM_TABELA=PABC_ATEPACI;NM_INTEGRIDADE_REFERENCIAL=PABC57_ATEPACI_FK",
+            "table_name": "INTEGRIDADE_REFERENCIAL"
+        },
+        {
+            "primary_key": "NM_TABELA=PABC_ATEPACI;NM_INTEGRIDADE_REFERENCIAL=PABC57_ATEPACI_FK;NM_ATRIBUTO=NR_ATENDIMENTO",
+            "table_name": "INTEGRIDADE_ATRIBUTO"
+        },
+        {
+            "primary_key": "NR_SEQUENCIA=100087;NM_ATRIBUTO=IE_VIP",
+            "table_name": "TABELA_VISAO_ATRIBUTO"
+        },
+        {
+            "primary_key": "CD_FUNCAO=99676",
+            "table_name": "FUNCAO"
+        }
+    ],
+    "release_id": "40d79b82-a66b-4af4-9743-8455b9bf9ecf",
+    "schematics": [
+        {
+            "function_code": 916,
+            "route": "/admission"
+        },
+        {
+            "function_code": 6001,
+            "route": "/corsisfo"
+        }
+    ],
+    "shortName": "EMR16",
+    "smartlink": [
+        {
+            "file": "extension-api.json"
+        }
+    ],
+    "tables": {
+        "customized": [
+            {
+                "name": "PABC_ATEPACI"
+            }
+        ],
+        "extended": [
+            {
+                "name": "ATENDIMENTO_PACIENTE"
+            }
+        ]
+    },
+    "version": "1.0.0"
+}
