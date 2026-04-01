@@ -1,0 +1,128 @@
+[
+  {
+    "id": "eafb8e1ec7af2ba8",
+    "type": "tab",
+    "label": "Teste Token",
+    "disabled": false,
+    "info": "",
+    "env": [],
+    "dbPanelCode": "",
+    "extensionId": "186fde51-56d0-432d-958b-40e8d6599eac"
+  },
+  {
+    "id": "d5f6417452fb545f",
+    "type": "DBPanel Interceptor",
+    "z": "eafb8e1ec7af2ba8",
+    "tableName": "TIPO_ACOMODACAO",
+    "name": "TIPO_ACOMODACAO",
+    "url": "/interceptor/crud/30035",
+    "view": "30035",
+    "executionOrder": "1",
+    "method": "post",
+    "upload": false,
+    "swaggerDoc": "",
+    "x": 220,
+    "y": 320,
+    "wires": [
+      [
+        "2cce8fa26628b8cb",
+        "39ad0a6b14a63c0c"
+      ]
+    ]
+  },
+  {
+    "id": "39ad0a6b14a63c0c",
+    "type": "switch",
+    "z": "eafb8e1ec7af2ba8",
+    "name": "",
+    "property": "payload.records",
+    "propertyType": "msg",
+    "rules": [
+      {
+        "t": "nnull"
+      },
+      {
+        "t": "null"
+      }
+    ],
+    "checkall": "true",
+    "repair": false,
+    "outputs": 2,
+    "x": 490,
+    "y": 320,
+    "wires": [
+      [
+        "3e06d5829aae4c02"
+      ],
+      [
+        "b9bbcc338c868044"
+      ]
+    ]
+  },
+  {
+    "id": "3e06d5829aae4c02",
+    "type": "function",
+    "z": "eafb8e1ec7af2ba8",
+    "name": "function 1",
+    "func": "msg.payload.records.CD_NIVEL_ACOMODACAO = 10;\nreturn msg;",
+    "outputs": 1,
+    "timeout": 0,
+    "noerr": 0,
+    "initialize": "",
+    "finalize": "",
+    "libs": [],
+    "x": 720,
+    "y": 320,
+    "wires": [
+      [
+        "b9bbcc338c868044",
+        "59e96db3fce7a2c9"
+      ]
+    ]
+  },
+  {
+    "id": "b9bbcc338c868044",
+    "type": "http response",
+    "z": "eafb8e1ec7af2ba8",
+    "name": "",
+    "statusCode": "",
+    "headers": {},
+    "x": 790,
+    "y": 480,
+    "wires": []
+  },
+  {
+    "id": "59e96db3fce7a2c9",
+    "type": "debug",
+    "z": "eafb8e1ec7af2ba8",
+    "name": "DEBUG TESTE TOKEN",
+    "active": true,
+    "tosidebar": true,
+    "console": true,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 1020,
+    "y": 320,
+    "wires": []
+  },
+  {
+    "id": "2cce8fa26628b8cb",
+    "type": "debug",
+    "z": "eafb8e1ec7af2ba8",
+    "name": "DEBUG INICIO INTERCEPTOR",
+    "active": true,
+    "tosidebar": true,
+    "console": true,
+    "tostatus": false,
+    "complete": "payload",
+    "targetType": "msg",
+    "statusVal": "",
+    "statusType": "auto",
+    "x": 460,
+    "y": 500,
+    "wires": []
+  }
+]
