@@ -174,8 +174,8 @@
     "IE_LOCALIZADOR_INTERNO" : "",
     "DT_ATUALIZACAO" : "24/04/2026 09:59:44"
   }, {
-    "$operation" : "MERGE",
-    "DT_ATUALIZACAO_NREC" : "24/04/2026 13:28:10",
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "24/04/2026 14:21:41",
     "DS_LOCALIZADOR" : "teste luis novo editado",
     "IE_RESTRINGE_ESTAB" : "N",
     "IE_APRESENTACAO" : "N",
