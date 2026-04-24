@@ -55,6 +55,27 @@
     "IE_RESULTADO" : "N",
     "DT_ATUALIZACAO" : "23/04/2026 15:03:56",
     "IE_DESC_RESULT" : "N"
+  }, {
+    "$operation" : "CREATE",
+    "IE_TIPO_ATRIBUTO" : "VARCHAR2",
+    "DS_ITEM" : "TESTE_LUIS",
+    "IE_OCULTAR_RESTRICAO" : "N",
+    "NR_SEQ_TIPO_LOCALIZAR" : "29511",
+    "IE_IGNORAR_ACENTUACAO" : "N",
+    "NM_USUARIO" : "lpfreitas",
+    "IE_GRID" : "N",
+    "IE_FOCUS" : "N",
+    "NM_ATRIBUTO" : "TESTE_LUIS",
+    "DT_ATUALIZACAO_NREC" : "24/04/2026 13:56:38",
+    "IE_TIPO_SELECAO" : "",
+    "IE_UTILIZA_TARJA_MAGNETICA" : "N",
+    "NR_SEQ_APRESENT" : "1",
+    "NR_SEQUENCIA" : "41426",
+    "IE_TIPO_RESTRICAO" : "1",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "IE_RESULTADO" : "N",
+    "DT_ATUALIZACAO" : "24/04/2026 13:56:38",
+    "IE_DESC_RESULT" : "N"
   } ],
   "TIPO_LOCALIZAR" : [ {
     "$operation" : "MERGE",
