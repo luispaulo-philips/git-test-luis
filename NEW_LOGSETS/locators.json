@@ -11,6 +11,18 @@
     "CD_LOCALIZADOR" : "1",
     "CD_LOCALIZADOR_TFL" : "9",
     "DT_ATUALIZACAO" : "23/04/2026 15:24:58"
+  }, {
+    "$operation" : "CREATE",
+    "DT_ATUALIZACAO_NREC" : "24/04/2026 13:58:37",
+    "DS_LOCALE" : "pt_BR",
+    "NR_SEQ_TIPO_LOCALIZAR" : "29511",
+    "NR_SEQUENCIA" : "7770",
+    "NM_USUARIO" : "lpfreitas",
+    "NM_USUARIO_NREC" : "lpfreitas",
+    "NM_ATRIBUTO" : "TESTE_LUIS",
+    "CD_LOCALIZADOR" : "1",
+    "CD_LOCALIZADOR_TFL" : "9",
+    "DT_ATUALIZACAO" : "24/04/2026 13:58:37"
   } ],
   "TIPO_LOCALIZAR_ATRIBUTO" : [ {
     "$operation" : "CREATE",
