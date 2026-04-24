@@ -68,7 +68,7 @@
     "DT_ATUALIZACAO" : "23/04/2026 15:03:56",
     "IE_DESC_RESULT" : "N"
   }, {
-    "$operation" : "MERGE",
+    "$operation" : "DELETE",
     "IE_TIPO_ATRIBUTO" : "VARCHAR2",
     "DS_ITEM" : "TESTE_LUIS_EDITADO",
     "IE_OCULTAR_RESTRICAO" : "N",
@@ -78,7 +78,7 @@
     "IE_GRID" : "N",
     "IE_FOCUS" : "N",
     "NM_ATRIBUTO" : "TESTE_LUIS",
-    "DT_ATUALIZACAO_NREC" : "24/04/2026 14:13:34",
+    "DT_ATUALIZACAO_NREC" : "24/04/2026 14:27:56",
     "IE_TIPO_SELECAO" : "",
     "IE_UTILIZA_TARJA_MAGNETICA" : "N",
     "NR_SEQ_APRESENT" : "1",
