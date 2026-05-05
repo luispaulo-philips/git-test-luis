@@ -2,14 +2,14 @@
   "DOMINIO" : [ {
     "$operation" : "CREATE",
     "CD_EXP_DESC_DOMINIO" : "1",
-    "CD_DOMINIO" : "24667",
+    "CD_DOMINIO" : "24675",
     "NM_DOMINIO" : "teste",
     "VALOR_DOMINIO_CUSTOM" : [ ],
     "NM_USUARIO" : "cmdk_adm_teste",
-    "DS_DOMINIO" : "tste",
+    "DS_DOMINIO" : "teste",
     "CD_EXP_DOMINIO" : "1",
     "VALOR_DOMINIO" : [ ],
-    "DT_ATUALIZACAO" : "04/05/2026 16:14:55",
+    "DT_ATUALIZACAO" : "05/05/2026 13:48:11",
     "DS_LAYER" : "CORE.CMDK_LTDA"
   } ]
 }
